@@ -197,7 +197,7 @@ nav {
     background: white;
     border-radius: 10px;
     padding: 2rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid rgba(102, 126, 234, 0.1);
 }
@@ -244,7 +244,16 @@ nav {
     gap: 3rem;
     margin-top: 2rem;
     flex-wrap: wrap;
+    text-decoration: none;
 }
+
+.contact-info a{
+    text-decoration: none;
+    color: #0077B6;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
 
 .contact-item {
     display: flex;
